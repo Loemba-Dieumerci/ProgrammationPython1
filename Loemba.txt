@@ -53,6 +53,7 @@ git branch -d back //// POUR SUPPRIMER LA BRANCHE
 git remote add origin https://github.com/Loemba-Dieumerci/ProgrammationPython1.git    /////ETABLIR UN LIEN ENTRE LE DEPOT LOCAL ET DISTANT
 git remote   /////VERIFIER LE DEPOT
 $ git push origin master  /////ENVOYER LES DOSSIERS VERS LE DEPOT DISTANT
+https://github.com/Loemba-Dieumerci/ProgrammationPython1  /////Mon compte Github
 
 
 
