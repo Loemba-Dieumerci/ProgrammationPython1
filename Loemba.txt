@@ -1,0 +1,73 @@
+Commandes à entrer (Copiez/Collez) :
+
+- taskkill /f /im OneDrive.exe
+
+(32 bits uniquement)
+- %SystemRoot%\System32\OneDriveSetup.exe /uninstall 
+
+(64 bits uniquement)
+- %SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
+////////////
+gpedit.msc
+#Compte GIT
+Loemba-Dieumerci    ///username
+Dieumerci1997       //password
+loembadieumerci1965@gmail.com 
+
+GIT 
+https://github.com/account/unverified-email
+
+////Site pour les fonds d'images
+https://wall.alphacoders.com/big.php?i=1108171&lang=French
+
+///Mon lien de Github
+https://github.com/Loemba-Dieumerci/ProgrammationPython1.git
+https://rogerdudler.github.io/git-guide/index.fr.html    /////QUELQUES COMMANDES
+git clone https://github.com/Loemba-Dieumerci/ProgrammationPython1.git   ////POUR CREER UN FICHIER SUR L'ECRAN
+cd ProgrammePython1/   //// POUR ACCEDER AU DOSSIER
+git add Cercle1.py     //// POUR AJOUTER UN FICHIER DANS LE DOSSIER
+////////Et si vous définissez les informations git config uniquement pour le référentiel actuel?
+git config user.email "loembadieumerci1965@gmail.com"
+git config user.name "Loemba-Dieumerci"
+
+
+
+///////////////EDIT Sur la base du commentaire OP, une solution possible est:
+GIT_AUTHOR_EMAIL="you@email.com" && GIT_AUTHOR_NAME="Your Name" && git commit
+ git push  /////// POUR ENVOYER DES FICHIERS EN LIGNE
+$ git add -A    /////POUR AJOUTER TOUS LES FICHIERS
+$ git branch DevLoemba  /////CREATION D'UNE NOUVELLE BR
+$ git checkout DevLoemba   ////POUR  SE RENDRE DANS LA BRANCHE CREEE
+$ git push --set-upstream origin DevLoemba  ///POUR ENVOYER DES BRANCHES EN LIGNE
+git merge   ////POUR FUSIONNER LE TRAVAIL 
+mkdir nomDuProjet  ///// POUR CREER UN DOSSIER
+cd  nomDuProjet 
+git commit -m "Ajout du nouveau fichier text"
+ 
+git init   ////POUR INITIALISER LE PROJET
+$ git branch ///POUR LISTER LES BRANCHES
+$ git checkout master //// POUR SE BASCULER
+git merge back  ////POUR FUSIONNER
+git branch -d back //// POUR SUPPRIMER LA BRANCHE
+/////DEPOT DISTANT
+git remote add origin https://github.com/Loemba-Dieumerci/ProgrammationPython1.git    /////ETABLIR UN LIEN ENTRE LE DEPOT LOCAL ET DISTANT
+git remote   /////VERIFIER LE DEPOT
+$ git push origin master  /////ENVOYER LES DOSSIERS VERS LE DEPOT DISTANT
+
+
+
+
+Tout fonctionnait bien, comme je pouvais:
+
+git add . tous les fichiers de mon référentiel local.
+git commit -m "message here" pour ajouter des messages à mes commits.
+git push origin master pour télécharger mes fichiers sur GitHub.
+git push heroku master pour télécharger mes fichiers sur Heroku.
+
+
+
+
+
+
+
+
