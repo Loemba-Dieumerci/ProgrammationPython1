@@ -1,3 +1,18 @@
+
+
+//// LES EXOS CORRIGES https://www.youtube.com/watch?v=SrZ_dDNNN2Y&list=PLh-rUZWaw76H854IJM3NXVGWbE8o_cuw7&index=11
+//// COMPTE ANACONDA
+
+pip install -U scikit-learn
+Afin de vérifier votre installation, vous pouvez utiliser
+
+python -m pip show scikit-learn # to see which version and where scikit-learn is installed
+python -m pip freeze # to see all packages installed in the active virtualenv
+python -c "import sklearn; sklearn.show_versions()
+
+https://www.youtube.com/watch?v=v7OTVy6whEY   //////  FML
+https://anaconda.org/loemba-dieumerci/dashboard
+https://www.youtube.com/watch?v=x_Jeyvw7n9I  //////// FORMATION MACHINE LEARNING
 Commandes à entrer (Copiez/Collez) :
 
 - taskkill /f /im OneDrive.exe
